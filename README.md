@@ -22,7 +22,10 @@ Long_ScreenShot is a long screenshot tool based on Euclidean distance calculatio
 ### 2. Run `splice.py`
 
 1. Run the `splice.py` script.
+
 2. The program will compare the grayscale images of consecutive short screenshots by sliding them vertically, minimizing the Euclidean distance of the overlapping area to determine the stitching position and stitch them together.
+
+   ![example](D:\opus\PycharmProjects_git\Long_ScreenShot\EXAMPLE.webp)
 
 ### Parameter Configuration
 
@@ -33,7 +36,26 @@ Long_ScreenShot is a long screenshot tool based on Euclidean distance calculatio
 
 - **Screenshot Area**: Avoid having static elements in the scrolling screenshot area to ensure optimal stitching results.
 - **Light Watermarks**: The program is insensitive to light watermarks, but it is still recommended to avoid large watermarks during screenshots.
+- 🤖**During the process of scrolling for screenshots, please keep the mouse pointer on the window that needs to be scrolled.**
+- 🤖**The program automatically stops scrolling and screenshotting when it detects the bottom of the page.Press the Esc key to stop the scrolling screenshot.**
 
 ## Test Results
 
 Long_ScreenShot has been tested to perform well in text-dense scenarios, effectively handling complex screenshot requirements.
+
+## **Dependencies and Licenses**
+
+This project uses the following third-party Python libraries:
+
+| Dependency     | License                      |
+| -------------- | ---------------------------- |
+| OpenCV (`cv2`) | Apache 2.0                   |
+| NumPy          | BSD 3-Clause                 |
+| Numba          | BSD 2-Clause                 |
+| Pillow (`PIL`) | PIL License (MIT Compatible) |
+| PyAutoGUI      | BSD 3-Clause                 |
+| Keyboard       | MIT                          |
+| Tkinter        | Python Standard Library      |
+| Shutil         | Python Standard Library      |
+
+All third-party libraries used in this project are compatible with the MIT license. For more details, please refer to the official documentation or license files of each library.
