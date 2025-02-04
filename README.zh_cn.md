@@ -25,7 +25,7 @@ Long_ScreenShot 是一个基于欧氏距离计算的长截图工具。它通过�
 
 2. 程序将上下滑动比较前后两张短图片的灰度图，使两个灰度图重叠部分的欧氏距离最小化，确定拼接位置并进行拼接。
 
-   ![演示](D:\opus\PycharmProjects_git\Long_ScreenShot\EXAMPLE.webp)
+   ![演示](.\EXAMPLE.webp)
 
 ### 参数设置
 

@@ -25,7 +25,7 @@ Long_ScreenShot is a long screenshot tool based on Euclidean distance calculatio
 
 2. The program will compare the grayscale images of consecutive short screenshots by sliding them vertically, minimizing the Euclidean distance of the overlapping area to determine the stitching position and stitch them together.
 
-   ![example](D:\opus\PycharmProjects_git\Long_ScreenShot\EXAMPLE.webp)
+   ![example](.\EXAMPLE.webp)
 
 ### Parameter Configuration
 
