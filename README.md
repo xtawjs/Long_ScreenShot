@@ -25,7 +25,7 @@ Long_ScreenShot is a long screenshot tool based on Euclidean distance calculatio
 
 2. The program will compare the grayscale images of consecutive short screenshots by sliding them vertically, minimizing the Euclidean distance of the overlapping area to determine the stitching position and stitch them together.
 
-   ![example](.\EXAMPLE.webp)
+   ![example](./EXAMPLE.webp)
 
 ### Parameter Configuration
 
@@ -37,7 +37,7 @@ Long_ScreenShot is a long screenshot tool based on Euclidean distance calculatio
 - **Screenshot Area**: Avoid having static elements in the scrolling screenshot area to ensure optimal stitching results.
 - **Light Watermarks**: The program is insensitive to light watermarks, but it is still recommended to avoid large watermarks during screenshots.
 - 🤖**During the process of scrolling for screenshots, please keep the mouse pointer on the window that needs to be scrolled.**
-- 🤖**The program automatically stops scrolling and screenshotting when it detects the bottom of the page.Press the Esc key to stop the scrolling screenshot.**
+- 🤖**The program automatically stops scrolling and screenshotting when it detects the bottom of the page. Press the Esc key to stop the scrolling screenshot manually.**
 
 ## Test Results
 
