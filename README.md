@@ -37,3 +37,20 @@ Long_ScreenShot is a long screenshot tool based on Euclidean distance calculatio
 ## Test Results
 
 Long_ScreenShot has been tested to perform well in text-dense scenarios, effectively handling complex screenshot requirements.
+
+## **Dependencies and Licenses**
+
+This project uses the following third-party Python libraries:
+
+| Dependency     | License                      |
+| -------------- | ---------------------------- |
+| OpenCV (`cv2`) | Apache 2.0                   |
+| NumPy          | BSD 3-Clause                 |
+| Numba          | BSD 2-Clause                 |
+| Pillow (`PIL`) | PIL License (MIT Compatible) |
+| PyAutoGUI      | BSD 3-Clause                 |
+| Keyboard       | MIT                          |
+| Tkinter        | Python Standard Library      |
+| Shutil         | Python Standard Library      |
+
+All third-party libraries used in this project are compatible with the MIT license. For more details, please refer to the official documentation or license files of each library.

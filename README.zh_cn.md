@@ -37,3 +37,20 @@ Long_ScreenShot 是一个基于欧氏距离计算的长截图工具。它通过�
 ## 测试结果
 
 经测试，Long_ScreenShot 在文字密集场景下的拼接效果有一定优势，能够较好地处理复杂的截图需求。
+
+## 依赖项及许可证
+
+本项目使用了以下第三方 Python 库：
+
+| 依赖项         | 许可证                 |
+| -------------- | ---------------------- |
+| OpenCV (`cv2`) | Apache 2.0             |
+| NumPy          | BSD 3-Clause           |
+| Numba          | BSD 2-Clause           |
+| Pillow (`PIL`) | PIL 许可证（MIT 兼容） |
+| PyAutoGUI      | BSD 3-Clause           |
+| Keyboard       | MIT                    |
+| Tkinter        | Python 标准库          |
+| Shutil         | Python 标准库          |
+
+所有第三方库的许可证均与 MIT 兼容，如需详细了解，请参阅各库的官方文档或许可证文件。
